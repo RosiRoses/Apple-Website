@@ -11,7 +11,7 @@ import {
 
 export const navLists = ["Store", "Mac", "iPhone", "Support"];
 
-export const hightlightsSlides = [
+export const highlightsSlides = [
   {
     id: 1,
     textLists: [
@@ -40,7 +40,7 @@ export const hightlightsSlides = [
   },
   {
     id: 4,
-    textLists: ["All-new Action button.", "What will yours do?."],
+    textLists: ["All-new Action button.", "What will yours do?"],
     video: highlightFourthVideo,
     videoDuration: 3.63,
   },
