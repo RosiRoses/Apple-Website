@@ -7,7 +7,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "jsm-k5p",
-    project: "iphone-web"
+    project: "iphone-web",
+    base: '/Apple-Website/'
   })],
 
   build: {
